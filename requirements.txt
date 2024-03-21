@@ -5,3 +5,4 @@ NudeNetClassifier==2.1.1
 python-telegram-bot==21.0.1
 flask
 NudeNet
+VNudeNet
