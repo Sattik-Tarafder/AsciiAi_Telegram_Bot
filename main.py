@@ -10,7 +10,7 @@ from keep_alive import keep_alive
 
 keep_alive()
 
-TOKEN: Final = "7005939046:AAGkgfq6pg-IK9zGROBlvghVVR6qx6BGdAc"
+token = os.environ.get('TOKEN')
 BOT_USERNAME: Final = "@asciiai_bot"
 
 #NSFW detector function
@@ -113,7 +113,7 @@ async def ascii_image(update: Update, context: CallbackContext):
 if __name__ == '__main__':
 
     print('Starting...')
-    app = Application.builder().token(TOKEN).build()
+    app = Application.builder().token(token).build()
 
     #Commands
     app.add_handler(CommandHandler('start', start_command))
