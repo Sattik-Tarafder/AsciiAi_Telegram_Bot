@@ -6,7 +6,9 @@ from ascii_magic import AsciiArt
 from telegram import Update
 import telegram
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackContext
+from keep_alive import keep_alive
 
+keep_alive()
 
 TOKEN: Final = "7005939046:AAGkgfq6pg-IK9zGROBlvghVVR6qx6BGdAc"
 BOT_USERNAME: Final = "@asciiai_bot"
