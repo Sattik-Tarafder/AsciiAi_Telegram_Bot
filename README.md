@@ -19,7 +19,7 @@ A powerful Telegram bot built with **Python** that transforms images into ASCII 
 Clone the repository and install dependencies:
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/AsciiAi_Telegram_Bot.git
+git clone https://github.com/Sattik-Tarafder/AsciiAi_Telegram_Bot.git
 cd AsciiAi_Telegram_Bot
 
 # Install dependencies
